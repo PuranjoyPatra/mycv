@@ -1,0 +1,85 @@
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #33ace3;
+  font-family: 'Josefin Sans', sans-serif;
+  background-image: url(../image/bg.webp),url(../image/bg.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top left,bottom right;
+
+  background-size:auto;
+  height: 100%;
+
+
+}
+
+}
+h1{
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: #00263b;
+  margin-bottom: 40px;
+
+
+}
+.cpform{
+  width: 85%;
+  max-width: 600px;
+  background-color: powderblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 60px 70px;
+  box-sizing: border-box;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 20px #0000b3;
+
+}
+.txt{
+  border: 1px solid white;
+  background: white;
+  margin: 10px 0px;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+.txt label{
+  display: block;
+  text-align: left;
+  color: #1b6ca8;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+.txt input,.txt textarea{
+  width: 100%;
+  border:none;
+  background: none;
+  outline: none;
+  font-size: 1.15rem;
+  margin-top: 10px;
+}
+.btn{
+  width: 100%;
+  color: white;
+  background: #79d70f;
+  border: none;
+  padding: 15px 0px;
+  border-radius: 8px;
+  outline: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn:hover{
+  cursor: pointer;
+  color: blue;;
+  background: #a8df65;
+}
